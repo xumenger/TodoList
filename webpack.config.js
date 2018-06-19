@@ -26,7 +26,7 @@ module.exports = {
         use: [
           {
             loader: 'url-loader',
-            option: {
+            options: {
               limit: 1024,
               name: '[name]-00.[ext]'
             }
