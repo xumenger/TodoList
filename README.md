@@ -13,4 +13,8 @@ sudo npm install -D webpack-cli
 npm i style-loader
 npm run build
 npm i url-loader file-loader
+npm run build
+npm i stylus-loader
+npm i stylus
+npm run build
 ```
