@@ -1,0 +1,22 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "description": "todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xumenger/TodoList.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "xumenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xumenger/TodoList/issues"
+  },
+  "homepage": "https://github.com/xumenger/TodoList#readme"
+}
