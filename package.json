@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/xumenger/TodoList/issues"
   },
-  "homepage": "https://github.com/xumenger/TodoList#readme"
+  "homepage": "https://github.com/xumenger/TodoList#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.0"
+  }
 }
