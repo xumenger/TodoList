@@ -17,4 +17,9 @@ npm run build
 npm i stylus-loader
 npm i stylus
 npm run build
+npm i webpack-dev-server
+npm i cross-env
+npm i html-webpack-plugin
+npm run build
+npm run dev
 ```
