@@ -1,5 +1,8 @@
 const path = require('path')
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const HTMLPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+
 const isDev = process.env.NODE_ENV === 'development'
 
 config = {
@@ -10,8 +13,14 @@ config = {
     path: path.join(__dirname, 'dist')
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: isDev ? '"development"' : '"production"'
+      }
+    }),
     // make sure to include the plugin for the magic
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new HTMLPlugin()
   ],
   module: {
     rules: [
