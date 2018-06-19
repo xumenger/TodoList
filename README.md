@@ -12,4 +12,5 @@ sudo npm install webpack -g
 sudo npm install -D webpack-cli
 npm i style-loader
 npm run build
+npm i url-loader file-loader
 ```
