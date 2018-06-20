@@ -5,9 +5,9 @@ export default {
     return {
       author: 'xumenger'
     }
-  }
+  },
   render(){
-    return(
+    return (
       <div id="footer">
         <span>Written by {this.author}</span>
       </div>
