@@ -17,6 +17,9 @@ export default {
     Header,
     Footer,
     Todo,
+  },
+  render(){
+
   }
 }
 </script>

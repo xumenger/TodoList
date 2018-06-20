@@ -2,6 +2,7 @@ const path = require('path')
 const HTMLPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const ExtractPlugin = require('extract-text-webpack-plugin')
 
 const isDev = process.env.NODE_ENV === 'development'
 
@@ -13,8 +14,8 @@ config = {
        * Vue v2.x之后NPM Package默认设置只会生成runtime-only 版本，若要使用standalone功能則需如下设置 
        * 否则会报错：Failed to mount component: template or render function not defined. 
        */  
-      alias: {  
-      vue: 'vue/dist/vue.js'  
+    alias: {  
+      'vue$': 'vue/dist/vue.js'  
     },  
     extensions: ['.js', '.vue']  
   },
