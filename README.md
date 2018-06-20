@@ -30,5 +30,14 @@ npm i postcss-loader autoprefixer babel-loader babel-core
 npm i babel-preset-env babel-plugin-transform-vue-jsx
 npm i babel-helper-vue-jsx-merge-props
 npm i babel-plugin-syntax-jsx
+vim .babelrc
+vim postcss.config.js
 npm run dev
+mkdir src/todo
+touch src/todo/header.vue
+touch src/todo/footer.jsx
+touch src/todo/todo.vue
+touch src/todo/tabs.vue
+touch src/todo/item.vue
+touch src/assets/styles/globals.styl
 ```
