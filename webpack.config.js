@@ -26,10 +26,14 @@ config = {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader'
+        use: [
+          'vue-loader',
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
-        test: /\/jsx$/,
+        test: /\.jsx$/,
         loader: 'babel-loader'
       },
       {
