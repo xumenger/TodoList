@@ -22,4 +22,13 @@ npm i cross-env
 npm i html-webpack-plugin
 npm run build
 npm run dev
+npm i webpack-dev-server
+npm i cross-env
+npm i html-webpack-plugin
+npm run build
+npm i postcss-loader autoprefixer babel-loader babel-core
+npm i babel-preset-env babel-plugin-transform-vue-jsx
+npm i babel-helper-vue-jsx-merge-props
+npm i babel-plugin-syntax-jsx
+npm run dev
 ```
